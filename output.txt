@@ -1,0 +1,8 @@
+Removing PJs,shorts,t-shirt,sun visor,sandals,leaving house
+Removing PJs,pants,socks,shirt,hat,jacket,boots,leaving house
+Removing PJs,shorts,t-shirt,sun visor,false
+Removing PJs,pants,socks,false
+Removing PJs,shorts,false
+Removing PJs,shorts,false
+Removing PJs,pants,socks,shirt,hat,jacket,false
+false

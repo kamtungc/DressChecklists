@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<commandRules>
+  <commandRule id="1" name="Command01" description="Put on footwear">
+    <responses>
+      <response type="HOT">
+        <requiredItems>
+          <requiredItem>8</requiredItem>
+        </requiredItems>
+        <message>sandals</message>
+      </response>
+      <response type="COLD">
+        <requiredItems>
+          <requiredItem>8</requiredItem>
+          <requiredItem>3</requiredItem>
+        </requiredItems>
+        <message>boots</message>
+      </response>
+    </responses>
+  </commandRule>
+  <commandRule id="2" name="Command02" description="Put on headwear">
+    <responses>
+      <response type="HOT">
+        <requiredItems>
+          <requiredItem>8</requiredItem>
+          <requiredItem>4</requiredItem>
+        </requiredItems>
+        <message>sun visor</message>
+      </response>
+      <response type="COLD">
+        <requiredItems>
+          <requiredItem>8</requiredItem>
+          <requiredItem>4</requiredItem>
+        </requiredItems>
+        <message>hat</message>
+      </response>
+    </responses>
+  </commandRule>
+  <commandRule id="3" name="Command03" description="Put on socks">
+    <responses>
+      <response type="HOT">
+        <requiredItems>
+          <requiredItem>8</requiredItem>
+        </requiredItems>
+        <message>fail</message>
+        <error>true</error>
+      </response>
+      <response type="COLD">
+        <requiredItems>
+          <requiredItem>8</requiredItem>
+        </requiredItems>
+        <message>socks</message>
+      </response>
+    </responses>
+  </commandRule>
+  <commandRule id="4" name="Command04" description="Put on shirt">
+    <responses>
+      <response type="HOT">
+        <requiredItems>
+          <requiredItem>8</requiredItem>
+        </requiredItems>
+        <message>t-shirt</message>
+      </response>
+      <response type="COLD">
+        <requiredItems>
+          <requiredItem>8</requiredItem>
+        </requiredItems>
+        <message>shirt</message>
+      </response>
+    </responses>
+  </commandRule>
+  <commandRule id="5" name="Command05" description="Put on jacket">
+    <responses>
+      <response type="HOT">
+        <requiredItems>
+          <requiredItem>8</requiredItem>
+        </requiredItems>
+        <message>fail</message>
+        <error>true</error>
+      </response>
+      <response type="COLD">
+        <requiredItems>
+          <requiredItem>8</requiredItem>
+          <requiredItem>4</requiredItem>
+        </requiredItems>
+        <message>jacket</message>
+      </response>
+    </responses>
+  </commandRule>
+  <commandRule id="6" name="Command06" description="Put on pants">
+    <responses>
+      <response type="HOT">
+        <requiredItems>
+          <requiredItem>8</requiredItem>
+        </requiredItems>
+        <message>shorts</message>
+      </response>
+      <response type="COLD">
+        <requiredItems>
+          <requiredItem>8</requiredItem>
+        </requiredItems>
+        <message>pants</message>
+      </response>
+    </responses>
+  </commandRule>
+  <commandRule id="7" name="Command07" description="Leave house">
+    <responses>
+      <response type="HOT">
+        <requiredItems>
+          <requiredItem>8</requiredItem>
+          <requiredItem>1</requiredItem>
+          <requiredItem>2</requiredItem>
+          <requiredItem>4</requiredItem>
+          <requiredItem>6</requiredItem>
+        </requiredItems>
+        <message>leaving house</message>
+      </response>
+      <response type="COLD">
+        <requiredItems>
+          <requiredItem>8</requiredItem>
+          <requiredItem>1</requiredItem>
+          <requiredItem>2</requiredItem>
+          <requiredItem>4</requiredItem>
+          <requiredItem>6</requiredItem>
+        </requiredItems>
+        <message>leaving house</message>
+      </response>
+    </responses>
+  </commandRule>
+  <commandRule id="8" name="Command08" description="Take off pajamas">
+    <responses>
+      <response type="HOT">
+        <message>Removing PJs</message>
+      </response>
+      <response type="COLD">
+        <message>Removing PJs</message>
+      </response>
+    </responses>
+  </commandRule>
+</commandRules>
